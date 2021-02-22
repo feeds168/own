@@ -1,0 +1,136 @@
+# 2021.2.21  18.00
+# 更新日志：
+# [Remote Script]增加京东系列合集
+# 更新分流部分
+# 所有脚本合集默认关闭状态
+# 增加解除TF限制插件
+# 增加DNS
+# 增加网易云分流 删除网易云插件
+
+# Loon全局配置 by Tartarus
+# 作者GitHub： https://github.com/Tartarus2014
+# 脚本库GitHub： https://github.com/Tartarus2014/Loon-Script
+# Loon教程链接：https://github.com/TiyNa/LoonManual
+# Loon规则GitHub：https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon
+
+# 导入配置后,添加机场订阅链接,之后更新订阅规则。
+# 点击配置-证书管理-生成新的CA证书，之后进入「设置」>「通用」>「描述文件」, 安装Loon的证书, 并在「设置」>「通用」>「关于本机」>「证书信任设置」开启对Loon证书的信任。
+# 开启并更新脚本和插件。
+
+# 全分组
+# 去广告插件, VIP脚本, 签到, cookie,
+# 云音乐解锁规则, 节点远程订阅, 默认直连, 可在策略组手动开启。
+# 请使用 Safari 浏览器访问 https://cdn.jsdelivr.net/gh/nondanee/UnblockNeteaseMusic@master/ca.crt 。首先下载证书, 进入「设置」>「通用」>「描述文件」, 安装「UnblockNeteaseMusic Root CA」, 并在「设置」>「通用」>「关于本机」>「证书信任设置」开启对「UnblockNeteaseMusic Root CA」的信任。
+
+[General]
+# IPv6 支持
+ipv6 = false
+# > 跳过某个域名或者IP段
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+# DNS 服务器
+dns-server = system,119.29.29.29,114.114.114.114,223.5.5.5
+# Wi-Fi 访问
+# > 允许 Wi-Fi 网络下其它设备访问
+allow-udp-proxy = false
+allow-wifi-access = false
+wifi-access-http-port = 7222
+wifi-access-socket5-port = 7221
+# > 代理测速 URL
+proxy-test-url = http://www.gstatic.com/generate_204
+# > 测速超时 (s)
+test-timeout = 3
+# 解析器
+resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/sub-store-parser.js
+
+[Host]
+
+[Proxy]
+
+[Remote Proxy]
+element = https://app.getelement.cc/api/v1/client/subscribe?token=b3578ec2cf5be812b08961cb5ac6ea0e
+socloud = https://d.cloudso.club/link/8vrCScO0AS4PyrOM?sub=3
+网易解锁 = https://git.io/JfNq3,parser-enable = true
+
+[Proxy Group]
+FINAL = select,DIRECT,节点选择
+节点选择 = select,香港节点,狮城节点,日本节点,台湾节点
+苹果服务 = select,DIRECT,节点选择
+网易音乐 = select,DIRECT,解锁节点
+奈飞视频 = select,节点选择,狮城节点,香港节点,台湾节点,美国节点
+油管视频 = select,节点选择,香港节点,狮城节点,韩国节点,美国节点
+巴哈姆特 = select,节点选择,台湾节点,香港节点
+电报消息 = select,节点选择,香港节点,狮城节点,美国节点
+国外媒体 = select,节点选择,狮城节点,香港节点,台湾节点,韩国节点,美国节点
+港台番剧 = select,DIRECT,台湾节点,香港节点,
+香港节点 = select,香港
+台湾节点 = select,台湾
+狮城节点 = select,新加坡
+韩国节点 = select,韩国
+日本节点 = select,日本
+美国节点 = select,美国
+解锁节点 = select,网易解锁
+
+[Remote Filter]
+香港 = NameRegex, FilterKey = "(?i)(港|HK|Hong)"
+台湾 = NameRegex, FilterKey = "(?i)(台|TW|Tai)"
+日本 = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
+韩国 = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓)"
+美国 = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+新加坡 = NameRegex, FilterKey = "(?i)(新加坡|坡|狮城|SG|Singapore)"
+网易解锁 = NameRegex, FilterKey = "(?i)(unblock|music|Music|云音乐|🎧)"
+
+[Remote Rule]
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, policy=REJECT, tag=去广告, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list, policy=REJECT, tag=去广告, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list, policy=REJECT, tag=去广告, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TestFlight/TestFlight.list, policy=节点选择, tag=TestFlight, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list, policy=苹果服务, tag=苹果服务, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NetEaseMusic/NetEaseMusic.list, policy=网易音乐, tag=网易音乐, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=油管视频, tag=油管视频, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Netflix/Netflix.list, policy=奈飞视频, tag=奈飞视频, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bahamut/Bahamut.list, policy=巴哈姆特, tag=巴哈姆特, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GlobalMedia/GlobalMedia.list, policy=节点选择, tag=国外媒体, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BiliBili/BiliBili.list, policy=港台番剧, tag=国内媒体, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=电报消息, tag=电报消息, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=节点选择, tag=全球规则, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy_Domain.list, policy=节点选择, tag=全球规则, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list, policy=DIRECT, tag=全球直连, enabled=true
+
+[Rule]
+DOMAIN,rsshub.app,节点选择
+GEOIP,CN,DIRECT
+FINAL,FINAL
+
+[URL Rewrite]
+enable = true
+
+[Remote Rewrite]
+
+[Script]
+enable = true
+cron "10 1 8 * * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车
+cron "5 3 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js, tag=京东白条
+cron "5 6 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js, tag=时光相册
+cron "15 1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
+
+[Remote Script]
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Cookie.conf, tag=Cookie.获取完一定要关闭, enabled=false
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf, tag=Task, enabled=false
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf, tag=Script, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/JD.conf, tag=JD-LCK, enabled=false
+
+[Plugin]
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Host.plugin, tag=Host, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/Block/Advertising.plugin, proxy=REJECT, tag=Advertising, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/General.plugin, tag=General, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/TF-Download.plugin, tag=TF-Download, enabled=true
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.tf.plugin, tag=Boxjs, enabled=true
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin, tag=订阅解析器, enabled=false
+
+[MITM]
+ca-p12 = MIIJRQIBAzCCCQ8GCSqGSIb3DQEHAaCCCQAEggj8MIII+DCCA68GCSqGSIb3DQEHBqCCA6AwggOcAgEAMIIDlQYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIeEcaQqCZtBoCAggAgIIDaKP0wcwKJ0fWC/TJCZKOxZ1msqt1Yx2Go5YWPmxQAD6a7IKtA+RzDbcYywHa3b4J+DgxwVZngMk9qxNC+3edPgsHNxCdCvRVUn6Iu0zE/H8cVgT3oKo/s1uUsEbmWVvEbWhykdVG7EKSG7061Uc7MXYn85whKpdKZ65PmXBF+kkzE13AgmIjGopb2SVSqgwiXDe9bTTsUjRqaKA2WZsP8loRxLK7HugILPtXXnqKSxJfybrAkLAXV1UNVATyWNj+QN960OVGB3CFy30eY6ZIkw7a86DEUHbifXD4Apbnyn3FgA0m0z9Inx84azz2B8t/cLORgNeSgGNeHZ554urKVZNsbr5NI5mrKjpaJnG+f0oOrzz99JyfS74yc0gK6Hw3D79dr4DTYrgbQZ03RrSlQF+qzsv3Vt82mA8cCSaER2Pq2L/bDKfApPAjzWwhZ7/WMiXhVTbmf20SJPRbEqOmudmbW8XRAhwWyjpOp2790VHgWfx5V3/ihV05fJRON7Q6F2Yrn+Qlv9fKTGgKW8oV+FUsYSuE5BIQ/ZfOKPNCl5qosxm101wrhtMxRZI/UxJ5uBJlxEJ3yUv5ofGbzK6oVHblZ+xdfUK8ztC7Lo0DTpfKEZ8kNCG1KliiPPW0/CGnkJK4SKUahrlFMLUxh8ud5MTmh6YhWSkHeG+irOkVOVPMOW2dpW0kLHBGR5XEwRlivp0+SOSKvGmiqHyuRfFmqf3Y4j2Z0bV3sAK6uT6BfyaQaPP3fNinigCrARli+vnfbcX3wlHftG2f7aoyTAYwtp5XVK76s/5k4qEZni7+KgMjhFZ/19QdW5dZS92MuGT3on1aCIeVPEmJ9MA/43uVmoKehEymKXnvQGD3KxQ4vtr/6o1rQoY89eTnuxvM+2e8B0kPbDQAbPkCLVxysgOlWdNZcVTfAKs3PE5N7HOR5YfF2VBiS+HN/X4qSVgV7vUyWYsnPxRxtP9dtJMyzeJkoSIjVjDgLK4YmlW1Js13QY6dJy1DL7wv60yRbepLQ/KsYrr6dIO9HcdH7cIV1EG1UrGpShy+Q9if6qfVdXBw9JM1eHZZuT2qsVCmZLMUOgZpFCen8w5/PMAZCD48TaO8wmudroVG6ruHSW6L7VEsc1weXySUNarthiXKAq6mrKXZ80kTJWfaBC+BMIIFQQYJKoZIhvcNAQcBoIIFMgSCBS4wggUqMIIFJgYLKoZIhvcNAQwKAQKgggTuMIIE6jAcBgoqhkiG9w0BDAEDMA4ECHwWrtwabpblAgIIAASCBMgBf/gHHo3z30GfE3fy4sIbI7+SEMr8pAgWv6PsVeWZNREP50redajEE+9nCkyJI+aKsPbWv6KOtdo/nIg9hvcAaAVtFUoQ5hn9yzUeuEiAhohufX8VAjiFZNKML7VR4fFgKib0Uj130TDweaRBe+4yB+b/vzdNz43cJlOZ0Zy+nxPBBUkh7YYToIiHqdbT2KGR36N7vUWewL5SpN6ak9hDdXmJubxxlaE2mC9/STlkYnhA7c8Aj0YBo4K8JpN89/vawcsnNxZZ5/UQgMrFBEceNYe9BlvSPmgABPV+LTEt87fObZKZGPAci6TgJola1Xe3Ezn/ew4JcIfpjDBB8oGASbHJz1Ys3qvOTtlAnla7+Aj8wWKbpFpztE6Q+vUTJdiugJvtuHH0iNfVekdHL0PimVyJj5TMrSl8oILiILPPxOO6QbMvSa95MiFdzknMbbOcJczpaLMULVkiyMFlYl4vZlA4JHVtPIlAucTyakktBAccLAOhxTA3m6YuhxSUtLnjO/3fNrpIO53M/+G7DAfUFSi3sDZTbEUhphISLDDKBkkPvVK+c/L7aG1u8O2WOd1MzWDFi2Fr6M28lPJelgw9Z0OMTLj2IrtxgfcwERWQaQSCNgdGONCJki4TAbxyb8H0A2D1GIvtBVOrkzS0tO7qFhCbWpecNPW261+TvS1gnFLnW9bRxa/M+ZzBfTbbWxyqppZl8FO6AfuuQkKTsUxlqOFuX/J9kYewSC8Ng7bGVfn+2RDu+IkqgJKl+OUxxZ6dYDMpXWZACt2AUq9Qe+mlTlCCkXW3Gh1JyCbzVk28YhSIDmf5RXxRT6IvCmXWnZYZQD/OcaIRISUfPdVkqkwY7MjkOZaZoT2FxwnqhFpETWHAlbuVkeRtxI/5VMh/mnryKILczDr1K7+eYHX4FGNGEfMMlnWPMl4L6LIgFbJi+cTj4DTxTVnZclZwsJXcSz5thtnFWsK44Se0UJOqH1xnhSj35HeJZ+JPIJYofLJ+aX3Z2sS7VNV5Go2YCAxMRSIsFJgBx6mpgL7yFPtzAaaucJaTzQ4AbuxDSS5vnBpVV60bc5B9DKMKEY3hUPVEit3l/Ebi9mUTWao4w9vkyedIOqT9q4rcYqw2lJCH7BF2evBePORup/3XwZLA3tTn2dVhXThcwJ9I1LGW9Am8nl76xdXFJI7aggz9XFscodpi08E2b8RE7EO0BxbhVPqkHfDkjTx4isz4sg3DyC97Yb6ZnNX+mf9MzBx+MyVfMfRekdY700zEa/vLZlzFhUorcTdYnz1Vf2uPRM3RquyVWBre9E9CZHUUwrcKSyztEmfw7YHd1Y+T1i1e8c1h7G7EZvfL2ZnlLGSwfuZFCjsuHEI9xXjoLCmk0Edb4VTiIYXyJ2Tpuh9b/IeoRrkeblLYKup+8gb4H25LXPpFsZ0bICZ7BklnwAJpTi/a3fzmW/7C2ColBIWw+zw/j9WAaCJlxv+L5aSAn1Fvea6jUvj3mwpXEwcuCpU7dF1uumLdkJA27VDE2jpFWQwx+XJMVT41+31RJzVzg53wFt9+mxnK0saKd4B5vxxlxiBK7YVEqtd92la5IBdeLMHvEc2t07vQ+y5Rs+MxAxLmh9PJdcs/SYv9qFbkC0e/fKYxJTAjBgkqhkiG9w0BCRUxFgQURwD/1A4bz8R3i2TOHxa+c/39368wLTAhMAkGBSsOAwIaBQAEFBOc2v4m5nWvGWPqtOhj2PATj6HuBAhRckRYDvIFug==
+ca-passphrase = VRV2630U
+enable = true
+hostname = *.example.com,*.sample.com
+skip-server-cert-verify = false
