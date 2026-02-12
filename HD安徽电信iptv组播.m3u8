@@ -1,195 +1,289 @@
-#EXTM3U
+#EXTM3U url-tvg="http://dsm.198889.xyz:808/epg/NGI2NDQxNWMwNTEwLXBbdQu4ElgDt0mnzo9NVOzlcMPs63LFoM8=/e.xml"
 
-#EXTINF:-1,CCTV-1HD
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV1.png" group-title="高清" http-user-agent="",CCTV1
 rtp://238.1.78.166:7200
-#EXTINF:-1,CCTV-2HD
-rtp://238.1.78.235:7752
-#EXTINF:-1,CCTV-3HD
-rtp://238.1.78.170:7232
-#EXTINF:-1,CCTV-4HD
-rtp://238.1.78.236:7760
-#EXTINF:-1,CCTV-5HD
-rtp://238.1.78.171:7240
-#EXTINF:-1,CCTV-5＋HD
-rtp://238.1.78.237:7768
-#EXTINF:-1,CCTV-6HD
-rtp://238.1.78.172:7248
-#EXTINF:-1,CCTV-7HD
-rtp://238.1.78.239:7784
-#EXTINF:-1,CCTV-8HD
-rtp://238.1.78.173:7256
-#EXTINF:-1,CCTV-9HD
-rtp://238.1.78.240:7792
-#EXTINF:-1,CCTV-10HD
-rtp://238.1.78.241:7800
-#EXTINF:-1,CCTV-11HD
-rtp://238.1.78.206:7502
-#EXTINF:-1,CCTV-12HD
-rtp://238.1.78.242:7808
-#EXTINF:-1,CCTV-13HD
-rtp://238.1.79.35:4392
-#EXTINF:-1,CCTV-14HD
-rtp://238.1.78.243:7816
-#EXTINF:-1,CCTV-15HD
-rtp://238.1.78.222:7648
-#EXTINF:-1,CCTV-17HD
-rtp://238.1.78.178:7296
-#EXTINF:-1,东方财经HD
-rtp://238.1.78.73:6456
-#EXTINF:-1,爱上4K
-rtp://238.1.78.23:6112
-#EXTINF:-1,安徽卫视HD
-rtp://238.1.78.150:7072
-#EXTINF:-1,天津卫视HD
-rtp://238.1.78.20:6088
-#EXTINF:-1,辽宁卫视HD
-rtp://238.1.78.21:6096
-#EXTINF:-1,东南卫视HD
-rtp://238.1.78.22:6104
-#EXTINF:-1,江西卫视HD
-rtp://238.1.78.26:6136
-#EXTINF:-1,贵州卫视HD
-rtp://238.1.78.244:7824
-#EXTINF:-1,河北卫视HD
-rtp://238.1.78.245:7832
-#EXTINF:-1,山东卫视HD
-rtp://238.1.78.169:7224
-#EXTINF:-1,深圳卫视HD
-rtp://238.1.78.156:7120
-#EXTINF:-1,中国教育-1HD
-rtp://238.1.78.158:7136
-#EXTINF:-1,四川卫视HD
-rtp://238.1.78.30:6168
-#EXTINF:-1,重庆卫视HD
-rtp://238.1.78.31:6176
-#EXTINF:-1,徽生活HD
-rtp://238.1.79.37:4408
-#EXTINF:-1,安徽卫视FHD
-rtp://238.1.79.27:4328
-#EXTINF:-1,黑龙江卫视HD
-rtp://238.1.78.159:7144
-#EXTINF:-1,湖南卫视HD
-rtp://238.1.78.160:7152
-#EXTINF:-1,广东卫视HD
-rtp://238.1.78.161:7160
-#EXTINF:-1,北京卫视HD
-rtp://238.1.78.162:7168
-#EXTINF:-1,东方卫视HD
-rtp://238.1.78.163:7176
-#EXTINF:-1,浙江卫视HD
-rtp://238.1.78.164:7184
-#EXTINF:-1,江苏卫视HD
-rtp://238.1.78.165:7192
-#EXTINF:-1,河南卫视HD
-rtp://238.1.79.65:4632
-#EXTINF:-1,湖北卫视HD
-rtp://238.1.78.168:7216
-#EXTINF:-1,甘肃卫视HD
-rtp://238.1.79.36:4400
-#EXTINF:-1,IPTV相声小品
-rtp://238.1.78.3:7928
-#EXTINF:-1,IPTV野外
-rtp://238.1.78.4:7936
-#EXTINF:-1,IPTV法治
-rtp://238.1.78.5:7944
-#EXTINF:-1,IPTV少儿动画
-rtp://238.1.78.6:7952
-#EXTINF:-1,IPTV 魅力时尚
-rtp://238.1.78.7:7960
-#EXTINF:-1,IPTV收视指南
-rtp://238.1.78.8:7968
-#EXTINF:-1,IPTV热播剧场
-rtp://238.1.78.9:7976
-#EXTINF:-1,IPTV经典电影
-rtp://238.1.78.10:7984
-#EXTINF:-1,军旅剧场
-rtp://238.1.78.11:7992
-#EXTINF:-1,古装剧场
-rtp://238.1.78.12:4000
-#EXTINF:-1,动作影院
-rtp://238.1.78.13:4008
-#EXTINF:-1,家庭影院
-rtp://238.1.78.14:4016
-#EXTINF:-1,音乐现场
-rtp://238.1.78.15:4024
-#EXTINF:-1,武侠剧场
-rtp://238.1.78.16:4032
-#EXTINF:-1,爱生活
-rtp://238.1.78.17:4040
-#EXTINF:-1,好学生
-rtp://238.1.78.18:4048
-#EXTINF:-1,精选
-rtp://238.1.78.19:4056
-#EXTINF:-1,国学
-rtp://238.1.78.34:4064
-#EXTINF:-1,戏曲
-rtp://238.1.78.35:4072
-#EXTINF:-1,早教
-rtp://238.1.78.36:4080
-#EXTINF:-1,吉林卫视HD
-rtp://238.1.79.48:4496
-#EXTINF:-1,乐游HD
-rtp://238.1.78.151:7080
-#EXTINF:-1,海南卫视HD
-rtp://238.1.79.49:4504
-#EXTINF:-1,纪实人文HD
-rtp://238.1.78.153:7096
-#EXTINF:-1,动漫秀场HD
-rtp://238.1.78.154:7104
-#EXTINF:-1,生活时尚HD
-rtp://238.1.78.155:7112
-#EXTINF:-1,解密
-rtp://238.1.79.6:4160
-#EXTINF:-1,星影
-rtp://238.1.79.7:4168
-#EXTINF:-1,欢笑剧场4K
-rtp://238.1.79.67:4672
-#EXTINF:-1,金鹰纪实HD
-rtp://238.1.79.9:4184
-#EXTINF:-1,安徽经视HD
-rtp://238.1.79.44:4464
-#EXTINF:-1,安徽影视HD
-rtp://238.1.79.42:4448
-#EXTINF:-1,安徽公共HD
-rtp://238.1.79.43:4456
-#EXTINF:-1,安徽综艺HD
-rtp://238.1.79.41:4440
-#EXTINF:-1,安徽科教HD
-rtp://238.1.79.40:4432
-#EXTINF:-1,海豚生活HD
-rtp://238.1.79.50:4512
-#EXTINF:-1,茶HD
-rtp://238.1.79.30:4352
-#EXTINF:-1,快乐垂钓HD
-rtp://238.1.79.31:4360
-#EXTINF:-1,海豚少儿HD
-rtp://238.1.79.32:4368
-#EXTINF:-1,海豚健康HD
-rtp://238.1.79.33:4376
-#EXTINF:-1,海豚影视HD
-rtp://238.1.79.34:4384
-#EXTINF:-1,电视指南HD
-rtp://238.1.79.53:4560
-#EXTINF:-1,央视精品HD
-rtp://238.1.79.54:4568
-#EXTINF:-1,女性时尚HD
-rtp://238.1.79.55:4576
-#EXTINF:-1,兵器科技HD
-rtp://238.1.79.56:4584
-#EXTINF:-1,风云足球HD
-rtp://238.1.79.57:4592
-#EXTINF:-1,高尔夫HD
-rtp://238.1.79.58:4600
-#EXTINF:-1,央视台球HD
-rtp://238.1.79.59:4608
-#EXTINF:-1,世界地理HD
-rtp://238.1.79.60:4616
-#EXTINF:-1,怀旧剧场HD
-rtp://238.1.79.61:4624
-#EXTINF:-1,风云剧场HD
-rtp://238.1.79.62:4632
-#EXTINF:-1,第一剧场HD
-rtp://238.1.79.63:4640
-#EXTINF:-1,风云音乐HD
 
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV2.png" group-title="高清" http-user-agent="",CCTV2
+rtp://238.1.78.235:7752
+
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV3.png" group-title="高清" http-user-agent="",CCTV3
+rtp://238.1.78.170:7232
+
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV4.png" group-title="高清" http-user-agent="",CCTV4
+rtp://238.1.78.236:7760
+
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV5.png" group-title="高清" http-user-agent="",CCTV5
+rtp://238.1.78.171:7240
+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV5+.png" group-title="高清" http-user-agent="",CCTV5+
+rtp://238.1.78.237:7768
+
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV6.png" group-title="高清" http-user-agent="",CCTV6
+rtp://238.1.78.172:7248
+
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV7.png" group-title="高清" http-user-agent="",CCTV7
+rtp://238.1.78.239:7784
+
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV8.png" group-title="高清" http-user-agent="",CCTV8
+rtp://238.1.78.173:7256
+
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV9.png" group-title="高清" http-user-agent="",CCTV9
+rtp://238.1.78.240:7792
+
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV10.png" group-title="高清" http-user-agent="",CCTV10
+rtp://238.1.78.241:7800
+
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV11.png" group-title="高清" http-user-agent="",CCTV11
+rtp://238.1.78.206:7502
+
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV12.png" group-title="高清" http-user-agent="",CCTV12
+rtp://238.1.78.242:7808
+
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV13.png" group-title="高清" http-user-agent="",CCTV13
+rtp://238.1.79.35:4392
+
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV14.png" group-title="高清" http-user-agent="",CCTV14
+rtp://238.1.78.243:7816
+
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV15.png" group-title="高清" http-user-agent="",CCTV15
+rtp://238.1.78.222:7648
+
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="http://dsm.198889.xyz:808/logo/CCTV17.png" group-title="高清" http-user-agent="",CCTV17
+rtp://238.1.78.178:7296
+
+#EXTINF:-1 tvg-id="东方财经HD" tvg-name="东方财经HD" tvg-logo="" group-title="高清" http-user-agent="",东方财经HD
+rtp://238.1.78.73:6456
+
+#EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="" group-title="高清" http-user-agent="",爱上4K
+rtp://238.1.78.23:6112
+
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="http://dsm.198889.xyz:808/logo/安徽卫视.png" group-title="高清" http-user-agent="",安徽卫视
+rtp://238.1.78.150:7072
+
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="http://dsm.198889.xyz:808/logo/天津卫视.png" group-title="高清" http-user-agent="",天津卫视
+rtp://238.1.78.20:6088
+
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="http://dsm.198889.xyz:808/logo/辽宁卫视.png" group-title="高清" http-user-agent="",辽宁卫视
+rtp://238.1.78.21:6096
+
+#EXTINF:-1 tvg-id="东南卫视HD" tvg-name="东南卫视HD" tvg-logo="" group-title="高清" http-user-agent="",东南卫视HD
+rtp://238.1.78.22:6104
+
+#EXTINF:-1 tvg-id="江西卫视HD" tvg-name="江西卫视HD" tvg-logo="" group-title="高清" http-user-agent="",江西卫视HD
+rtp://238.1.78.26:6136
+
+#EXTINF:-1 tvg-id="贵州卫视HD" tvg-name="贵州卫视HD" tvg-logo="" group-title="高清" http-user-agent="",贵州卫视HD
+rtp://238.1.78.244:7824
+
+#EXTINF:-1 tvg-id="河北卫视HD" tvg-name="河北卫视HD" tvg-logo="" group-title="高清" http-user-agent="",河北卫视HD
+rtp://238.1.78.245:7832
+
+#EXTINF:-1 tvg-id="山东卫视HD" tvg-name="山东卫视HD" tvg-logo="" group-title="高清" http-user-agent="",山东卫视HD
+rtp://238.1.78.169:7224
+
+#EXTINF:-1 tvg-id="深圳卫视HD" tvg-name="深圳卫视HD" tvg-logo="" group-title="高清" http-user-agent="",深圳卫视HD
+rtp://238.1.78.156:7120
+
+#EXTINF:-1 tvg-id="中国教育-1HD" tvg-name="中国教育-1HD" tvg-logo="" group-title="高清" http-user-agent="",中国教育-1HD
+rtp://238.1.78.158:7136
+
+#EXTINF:-1 tvg-id="四川卫视HD" tvg-name="四川卫视HD" tvg-logo="" group-title="高清" http-user-agent="",四川卫视HD
+rtp://238.1.78.30:6168
+
+#EXTINF:-1 tvg-id="重庆卫视HD" tvg-name="重庆卫视HD" tvg-logo="" group-title="高清" http-user-agent="",重庆卫视HD
+rtp://238.1.78.31:6176
+
+#EXTINF:-1 tvg-id="徽生活HD" tvg-name="徽生活HD" tvg-logo="" group-title="高清" http-user-agent="",徽生活HD
+rtp://238.1.79.37:4408
+
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="http://dsm.198889.xyz:808/logo/安徽卫视.png" group-title="高清" http-user-agent="",安徽卫视
+rtp://238.1.79.27:4328
+
+#EXTINF:-1 tvg-id="黑龙江卫视HD" tvg-name="黑龙江卫视HD" tvg-logo="" group-title="高清" http-user-agent="",黑龙江卫视HD
+rtp://238.1.78.159:7144
+
+#EXTINF:-1 tvg-id="湖南卫视HD" tvg-name="湖南卫视HD" tvg-logo="" group-title="高清" http-user-agent="",湖南卫视HD
+rtp://238.1.78.160:7152
+
+#EXTINF:-1 tvg-id="广东卫视HD" tvg-name="广东卫视HD" tvg-logo="" group-title="高清" http-user-agent="",广东卫视HD
+rtp://238.1.78.161:7160
+
+#EXTINF:-1 tvg-id="北京卫视HD" tvg-name="北京卫视HD" tvg-logo="" group-title="高清" http-user-agent="",北京卫视HD
+rtp://238.1.78.162:7168
+
+#EXTINF:-1 tvg-id="东方卫视HD" tvg-name="东方卫视HD" tvg-logo="" group-title="高清" http-user-agent="",东方卫视HD
+rtp://238.1.78.163:7176
+
+#EXTINF:-1 tvg-id="浙江卫视HD" tvg-name="浙江卫视HD" tvg-logo="" group-title="高清" http-user-agent="",浙江卫视HD
+rtp://238.1.78.164:7184
+
+#EXTINF:-1 tvg-id="江苏卫视HD" tvg-name="江苏卫视HD" tvg-logo="" group-title="高清" http-user-agent="",江苏卫视HD
+rtp://238.1.78.165:7192
+
+#EXTINF:-1 tvg-id="河南卫视HD" tvg-name="河南卫视HD" tvg-logo="" group-title="高清" http-user-agent="",河南卫视HD
+rtp://238.1.79.65:4632
+
+#EXTINF:-1 tvg-id="湖北卫视HD" tvg-name="湖北卫视HD" tvg-logo="" group-title="高清" http-user-agent="",湖北卫视HD
+rtp://238.1.78.168:7216
+
+#EXTINF:-1 tvg-id="甘肃卫视HD" tvg-name="甘肃卫视HD" tvg-logo="" group-title="高清" http-user-agent="",甘肃卫视HD
+rtp://238.1.79.36:4400
+
+#EXTINF:-1 tvg-id="IPTV相声小品" tvg-name="IPTV相声小品" tvg-logo="" group-title="高清" http-user-agent="",IPTV相声小品
+rtp://238.1.78.3:7928
+
+#EXTINF:-1 tvg-id="IPTV野外" tvg-name="IPTV野外" tvg-logo="" group-title="高清" http-user-agent="",IPTV野外
+rtp://238.1.78.4:7936
+
+#EXTINF:-1 tvg-id="IPTV法治" tvg-name="IPTV法治" tvg-logo="" group-title="高清" http-user-agent="",IPTV法治
+rtp://238.1.78.5:7944
+
+#EXTINF:-1 tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画" tvg-logo="" group-title="高清" http-user-agent="",IPTV少儿动画
+rtp://238.1.78.6:7952
+
+#EXTINF:-1 tvg-id="IPTV魅力时尚" tvg-name="IPTV魅力时尚" tvg-logo="" group-title="高清" http-user-agent="",IPTV魅力时尚
+rtp://238.1.78.7:7960
+
+#EXTINF:-1 tvg-id="IPTV收视指南" tvg-name="IPTV收视指南" tvg-logo="" group-title="高清" http-user-agent="",IPTV收视指南
+rtp://238.1.78.8:7968
+
+#EXTINF:-1 tvg-id="IPTV热播剧场" tvg-name="IPTV热播剧场" tvg-logo="" group-title="高清" http-user-agent="",IPTV热播剧场
+rtp://238.1.78.9:7976
+
+#EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="" group-title="高清" http-user-agent="",IPTV经典电影
+rtp://238.1.78.10:7984
+
+#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="" group-title="高清" http-user-agent="",军旅剧场
+rtp://238.1.78.11:7992
+
+#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="" group-title="高清" http-user-agent="",古装剧场
+rtp://238.1.78.12:4000
+
+#EXTINF:-1 tvg-id="动作影院" tvg-name="动作影院" tvg-logo="" group-title="高清" http-user-agent="",动作影院
+rtp://238.1.78.13:4008
+
+#EXTINF:-1 tvg-id="家庭影院" tvg-name="家庭影院" tvg-logo="" group-title="高清" http-user-agent="",家庭影院
+rtp://238.1.78.14:4016
+
+#EXTINF:-1 tvg-id="音乐现场" tvg-name="音乐现场" tvg-logo="" group-title="高清" http-user-agent="",音乐现场
+rtp://238.1.78.15:4024
+
+#EXTINF:-1 tvg-id="武侠剧场" tvg-name="武侠剧场" tvg-logo="" group-title="高清" http-user-agent="",武侠剧场
+rtp://238.1.78.16:4032
+
+#EXTINF:-1 tvg-id="爱生活" tvg-name="爱生活" tvg-logo="" group-title="高清" http-user-agent="",爱生活
+rtp://238.1.78.17:4040
+
+#EXTINF:-1 tvg-id="好学生" tvg-name="好学生" tvg-logo="" group-title="高清" http-user-agent="",好学生
+rtp://238.1.78.18:4048
+
+#EXTINF:-1 tvg-id="精选" tvg-name="精选" tvg-logo="" group-title="高清" http-user-agent="",精选
+rtp://238.1.78.19:4056
+
+#EXTINF:-1 tvg-id="国学" tvg-name="国学" tvg-logo="http://dsm.198889.xyz:808/logo/国学.png" group-title="高清" http-user-agent="",国学
+rtp://238.1.78.34:4064
+
+#EXTINF:-1 tvg-id="戏曲" tvg-name="戏曲" tvg-logo="" group-title="高清" http-user-agent="",戏曲
+rtp://238.1.78.35:4072
+
+#EXTINF:-1 tvg-id="早教" tvg-name="早教" tvg-logo="" group-title="高清" http-user-agent="",早教
+rtp://238.1.78.36:4080
+
+#EXTINF:-1 tvg-id="吉林卫视HD" tvg-name="吉林卫视HD" tvg-logo="" group-title="高清" http-user-agent="",吉林卫视HD
+rtp://238.1.79.48:4496
+
+#EXTINF:-1 tvg-id="乐游HD" tvg-name="乐游HD" tvg-logo="" group-title="高清" http-user-agent="",乐游HD
+rtp://238.1.78.151:7080
+
+#EXTINF:-1 tvg-id="海南卫视HD" tvg-name="海南卫视HD" tvg-logo="" group-title="高清" http-user-agent="",海南卫视HD
+rtp://238.1.79.49:4504
+
+#EXTINF:-1 tvg-id="纪实人文HD" tvg-name="纪实人文HD" tvg-logo="" group-title="高清" http-user-agent="",纪实人文HD
+rtp://238.1.78.153:7096
+
+#EXTINF:-1 tvg-id="动漫秀场HD" tvg-name="动漫秀场HD" tvg-logo="" group-title="高清" http-user-agent="",动漫秀场HD
+rtp://238.1.78.154:7104
+
+#EXTINF:-1 tvg-id="生活时尚HD" tvg-name="生活时尚HD" tvg-logo="" group-title="高清" http-user-agent="",生活时尚HD
+rtp://238.1.78.155:7112
+
+#EXTINF:-1 tvg-id="解密" tvg-name="解密" tvg-logo="" group-title="高清" http-user-agent="",解密
+rtp://238.1.79.6:4160
+
+#EXTINF:-1 tvg-id="星影" tvg-name="星影" tvg-logo="" group-title="高清" http-user-agent="",星影
+rtp://238.1.79.7:4168
+
+#EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" tvg-logo="" group-title="高清" http-user-agent="",欢笑剧场4K
+rtp://238.1.79.67:4672
+
+#EXTINF:-1 tvg-id="金鹰纪实HD" tvg-name="金鹰纪实HD" tvg-logo="" group-title="高清" http-user-agent="",金鹰纪实HD
+rtp://238.1.79.9:4184
+
+#EXTINF:-1 tvg-id="安徽经视HD" tvg-name="安徽经视HD" tvg-logo="" group-title="高清" http-user-agent="",安徽经视HD
+rtp://238.1.79.44:4464
+
+#EXTINF:-1 tvg-id="安徽影视HD" tvg-name="安徽影视HD" tvg-logo="" group-title="高清" http-user-agent="",安徽影视HD
+rtp://238.1.79.42:4448
+
+#EXTINF:-1 tvg-id="安徽公共HD" tvg-name="安徽公共HD" tvg-logo="" group-title="高清" http-user-agent="",安徽公共HD
+rtp://238.1.79.43:4456
+
+#EXTINF:-1 tvg-id="安徽综艺HD" tvg-name="安徽综艺HD" tvg-logo="" group-title="高清" http-user-agent="",安徽综艺HD
+rtp://238.1.79.41:4440
+
+#EXTINF:-1 tvg-id="安徽科教HD" tvg-name="安徽科教HD" tvg-logo="" group-title="高清" http-user-agent="",安徽科教HD
+rtp://238.1.79.40:4432
+
+#EXTINF:-1 tvg-id="海豚生活HD" tvg-name="海豚生活HD" tvg-logo="" group-title="高清" http-user-agent="",海豚生活HD
+rtp://238.1.79.50:4512
+
+#EXTINF:-1 tvg-id="茶HD" tvg-name="茶HD" tvg-logo="" group-title="高清" http-user-agent="",茶HD
+rtp://238.1.79.30:4352
+
+#EXTINF:-1 tvg-id="快乐垂钓HD" tvg-name="快乐垂钓HD" tvg-logo="" group-title="高清" http-user-agent="",快乐垂钓HD
+rtp://238.1.79.31:4360
+
+#EXTINF:-1 tvg-id="海豚少儿HD" tvg-name="海豚少儿HD" tvg-logo="" group-title="高清" http-user-agent="",海豚少儿HD
+rtp://238.1.79.32:4368
+
+#EXTINF:-1 tvg-id="海豚健康HD" tvg-name="海豚健康HD" tvg-logo="" group-title="高清" http-user-agent="",海豚健康HD
+rtp://238.1.79.33:4376
+
+#EXTINF:-1 tvg-id="海豚影视HD" tvg-name="海豚影视HD" tvg-logo="" group-title="高清" http-user-agent="",海豚影视HD
+rtp://238.1.79.34:4384
+
+#EXTINF:-1 tvg-id="电视指南HD" tvg-name="电视指南HD" tvg-logo="" group-title="高清" http-user-agent="",电视指南HD
+rtp://238.1.79.53:4560
+
+#EXTINF:-1 tvg-id="央视精品HD" tvg-name="央视精品HD" tvg-logo="" group-title="高清" http-user-agent="",央视精品HD
+rtp://238.1.79.54:4568
+
+#EXTINF:-1 tvg-id="女性时尚HD" tvg-name="女性时尚HD" tvg-logo="" group-title="高清" http-user-agent="",女性时尚HD
+rtp://238.1.79.55:4576
+
+#EXTINF:-1 tvg-id="兵器科技HD" tvg-name="兵器科技HD" tvg-logo="" group-title="高清" http-user-agent="",兵器科技HD
+rtp://238.1.79.56:4584
+
+#EXTINF:-1 tvg-id="风云足球HD" tvg-name="风云足球HD" tvg-logo="" group-title="高清" http-user-agent="",风云足球HD
+rtp://238.1.79.57:4592
+
+#EXTINF:-1 tvg-id="高尔夫HD" tvg-name="高尔夫HD" tvg-logo="" group-title="高清" http-user-agent="",高尔夫HD
+rtp://238.1.79.58:4600
+
+#EXTINF:-1 tvg-id="央视台球HD" tvg-name="央视台球HD" tvg-logo="" group-title="高清" http-user-agent="",央视台球HD
+rtp://238.1.79.59:4608
+
+#EXTINF:-1 tvg-id="世界地理HD" tvg-name="世界地理HD" tvg-logo="" group-title="高清" http-user-agent="",世界地理HD
+rtp://238.1.79.60:4616
+
+#EXTINF:-1 tvg-id="怀旧剧场HD" tvg-name="怀旧剧场HD" tvg-logo="" group-title="高清" http-user-agent="",怀旧剧场HD
+rtp://238.1.79.61:4624
+
+#EXTINF:-1 tvg-id="风云剧场HD" tvg-name="风云剧场HD" tvg-logo="" group-title="高清" http-user-agent="",风云剧场HD
+rtp://238.1.79.62:4632
+
+#EXTINF:-1 tvg-id="第一剧场HD" tvg-name="第一剧场HD" tvg-logo="" group-title="高清" http-user-agent="",第一剧场HD
+rtp://238.1.79.63:4640
+
+#EXTINF:-1 tvg-id="风云音乐HD" tvg-name="风云音乐HD" tvg-logo="" group-title="高清" http-user-agent="",风云音乐HD
 rtp://238.1.79.64:4648
